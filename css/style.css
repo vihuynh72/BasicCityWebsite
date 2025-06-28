@@ -2,6 +2,7 @@ body {
     font-family: Helvetic, sans-serif, Arial;
     margin: 0;
     text-shadow: 0 0 1px black;
+    color: #13315c;
 }
 
 .hero {
@@ -14,31 +15,81 @@ body {
     border-radius: 10px;
 }
 
-#visit-page {
+.util-flex-center {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+.util-page-size {
     width: auto;
-    height: 600px;
+    height: 800px;
+}
 
-    
+
+#visit-page {
     background-image: url("../assets/images/seattle-visit.jpg");
     background-size: cover;
 
     #visit-page-title {
-        color: #99c1b9;
+        color: #134074;
         font-size: 500%;
         background-color: #f1e3d3;
         margin-bottom: -10px;
     }
 
     #visit-page-caption {
-        color: #f0a6ca;
+        color: #13315c;
         font-size: 200%;
         background-color: #f9eae1;
         width: 900px;
         text-align: center;
+    }
+}
+
+#activities-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    background-color: #f7e1d7;
+    
+    #activities-page-title {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #activity-boxes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+
+        .activity-box {
+        margin: 0 50px;
+        text-align: center;
+        height: 500px;
+        width: 1000px;
+
+        .activity-box-img {
+            width: 40%;
+            height: 40%;
+
+            border: 5px solid #4a5759;
+            border-radius: 100%;
+            }
+
+        .activity-box-title {
+            font-size: 32px;
+            margin-bottom: 20px;
+            width: 300px;
+            }
+
+        .activity-box-caption {
+            font-size: 28px;
+            }
+        }
     }
 }

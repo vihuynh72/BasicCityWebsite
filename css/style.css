@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetic, sans-serif, Arial;
+    margin: 0;
+    text-shadow: 0 0 1px black;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.util-text-padding {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#visit-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 600px;
+
+    
+    background-image: url("../assets/images/seattle-visit.jpg");
+    background-size: cover;
+
+    #visit-page-title {
+        color: #99c1b9;
+        font-size: 500%;
+        background-color: #f1e3d3;
+        margin-bottom: -10px;
+    }
+
+    #visit-page-caption {
+        color: #f0a6ca;
+        font-size: 200%;
+        background-color: #f9eae1;
+        width: 900px;
+        text-align: center;
+    }
+}

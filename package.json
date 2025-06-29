@@ -1,0 +1,15 @@
+{
+  "name": "basiccitywebsite",
+  "version": "1.0.0",
+  "description": "This is a personal project showcasing a simple HTML and CSS website that highlights top places to visit in Seattle. It features images, a guide, and a visually appealing layout using Flexbox.",
+  "main": "index.html",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "Vi",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

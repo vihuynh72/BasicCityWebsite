@@ -1,5 +1,8 @@
 body {
-    font-family: Helvetic, sans-serif, Arial;
+    font-family: "Josefin Sans", Helvetica, Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
     text-shadow: 0 0 1px black;
     color: #13315c;
